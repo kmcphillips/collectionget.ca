@@ -24,3 +24,6 @@ You should be able to reach the site at:
 
 http://localhost:9292/
 
+## Design
+
+Work by Grace Hrabi based on a template from https://onepagelove.com
