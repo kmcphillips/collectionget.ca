@@ -305,53 +305,13 @@ section#contact ul.socials li + li {
   margin: 0 0 0 1.5em;
 }
 section#contact ul.socials li a {
-  display: block;
-  content: " ";
-  text-indent: -9999px;
-  background-image: url("../images/socials.png");
-  background-repeat: no-repeat;
-  background-size: 634px 200px;
-  width: 101px;
-  height: 100px;
   text-decoration: none;
   border: 0;
   border-radius: 100%;
 }
-section#contact ul.socials li a.facebook {
-  background-position: 0 0;
-}
-section#contact ul.socials li a.facebook:hover {
-  background-position: 0 -100px;
-}
-section#contact ul.socials li a.vk {
-  background-position: -107px 0;
-}
-section#contact ul.socials li a.vk:hover {
-  background-position: -107px -100px;
-}
-section#contact ul.socials li a.twitter {
-  background-position: -213px 0;
-}
-section#contact ul.socials li a.twitter:hover {
-  background-position: -213px -100px;
-}
-section#contact ul.socials li a.instagram {
-  background-position: -320px 0;
-}
-section#contact ul.socials li a.instagram:hover {
-  background-position: -320px -100px;
-}
-section#contact ul.socials li a.soundcloud {
-  background-position: -533px 0;
-}
-section#contact ul.socials li a.soundcloud:hover {
-  background-position: -533px -100px;
-}
-section#contact ul.socials li a.youtube {
-  background-position: -427px 0;
-}
-section#contact ul.socials li a.youtube:hover {
-  background-position: -427px -100px;
+section#contact ul.socials li a img {
+  height: 100px;
+  width: 100px;
 }
 footer {
   background-color: #1D1313;
