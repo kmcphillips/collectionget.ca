@@ -10,6 +10,9 @@ class CollectionGetApp < Sinatra::Base
     scss :stylesheet
   end
 
+  get "/*" do
+    redirect to("/")
+  end
 
   helpers do
     def rot13email(email, name=nil)
