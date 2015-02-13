@@ -47,7 +47,7 @@
       </ul>
     </nav>
     <section id="welcome">
-      <img src="images/banner_text.png" alt="" class="cover invisible">
+      <img src="images/banner_text.png" alt="Collection Get!" class="cover invisible">
     </section>
     <section id="about">
       <article>
@@ -60,16 +60,20 @@
     <section class="in-between_pic background1" data-type="background" data-speed="5"></section>
     <section id="listen">
       <article>
-        <h2>Listen</h2>
-        <ul class="cast">
-          <li>TODO
-          </li>
-          <li>TODO</li>
-          <li>TODO</li>
-        </ul>
-        <%= erb :paypal %>
+        <h2>Order CD</h2>
+        <p>
+          Debut album <em>Save As...</em> available now
+          <br>
+          $10 including shipping in US/Canada
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="padding: 20px 80px;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="PYUJECHLLXGAG">
+            <input type="image" src="https://www.paypalobjects.com/WEBSCR-640-20110306-1/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110306-1/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </p>
       </article>
-      <iframe style="border: 0; width: 400px; height: 472px;" src="http://bandcamp.com/EmbeddedPlayer/album=2041641933/size=large/bgcol=ffffff/linkcol=de270f/artwork=small/transparent=true/" seamless><a href="http://collectionget.bandcamp.com/album/save-as">Save As... by Collection Get!</a></iframe>
+      <iframe style="border: 0; width: 400px; height: 472px;" class="bandcamp" src="http://bandcamp.com/EmbeddedPlayer/album=2041641933/size=large/bgcol=ffffff/linkcol=de270f/artwork=small/transparent=true/" seamless><a href="http://collectionget.bandcamp.com/album/save-as">Save As... by Collection Get!</a></iframe>
     </section>
     <section class="in-between_pic background2" data-type="background" data-speed="15"></section>
     <section id="contact">
