@@ -266,6 +266,22 @@ section#pictures ul li {
   list-style-position: outside;
   position: relative;
 }
+section#pictures a.fancybox {
+  border: 0;
+  text-decoration: none;
+  padding: 0 16px;
+}
+section#pictures a.fancybox img {
+  text-decoration: none;
+  height: 140px;
+  width: 140px;
+  margin: 0;
+  padding: 0;
+  border: 8px solid #1D1313;
+}
+section#pictures a.fancybox:hover img {
+  border: 8px solid #D22042;
+}
 section#contact {
   background-color: #ffffff;
   display: table;
