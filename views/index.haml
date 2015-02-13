@@ -1,0 +1,16 @@
+!!! 5
+%html
+  %head
+    %meta{charset: "UTF-8"}
+    %meta{name: "description", content: ""}
+    %meta{name: "keywords", content: ""}
+    %meta{name: "author", content: "Kevin McPhillips"}
+    %title
+
+    = erb :analytics
+
+    %script{src: "/application.js"}
+    %link{href: "/stylesheet.css", rel: "stylesheet", type: "text/css"}
+
+  %body
+    %p= @email
