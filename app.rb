@@ -3,11 +3,7 @@ class CollectionGetApp < Sinatra::Base
 
   get '/' do
     @email = rot13email(["contact" "@" "collectionget.ca"].join(''))
-    haml :index
-  end
-
-  get '/stylesheet.css' do
-    scss :stylesheet
+    erb :index
   end
 
   get "/*" do
