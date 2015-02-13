@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Collection Get!</title>
+    <meta name="author" content="Collection Get!">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=1000">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/application.css">
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/application.js"></script>
+
+    <link rel="shortcut icon" href="/imgages/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/imgages/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/imgages/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/imgages/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/imgages/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/imgages/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/imgages/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/imgages/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/imgages/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="/imgages/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="/imgages/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/imgages/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/imgages/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/imgages/favicon-32x32.png" sizes="32x32">
+
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#welcome" title="Collection Get!" class="nav_active">Collection Get!</a>
+        </li>
+        <li>
+          <a href="#about" title="About">About</a>
+        </li>
+        <li>
+          <a href="#listen" title="Listen">Listen</a>
+        </li>
+        <li>
+          <a href="#contact" title="Contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="welcome">
+      <img src="images/cover.jpg" alt="" class="cover invisible">
+    </section>
+    <section id="about">
+      <article>
+        <h2>About</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </article>
+    </section>
+    <section class="in-between_pic studio" data-type="background" data-speed="5"></section>
+    <section id="listen">
+      <article>
+        <h2>Listen</h2>
+        <ul class="cast">
+          <li>TODO
+          </li>
+          <li>TODO</li>
+          <li>TODO</li>
+        </ul>
+      </article>
+      <!-- <iframe width="40%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/TODO%3Fsecret_token%TODO&amp;color=e14728&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=false" class="soundcloud"></iframe> -->
+    </section>
+    <section class="in-between_pic audio" data-type="background" data-speed="15"></section>
+    <section id="contact">
+      <div class="content">
+        <ul class="info">
+          <li class="mail">
+            <small>Contact us</small>
+            <%= @email %>
+          </li>
+        </ul>
+        <ul class="socials">
+          <li>
+            <a href="https://www.facebook.com/pages/Collection-Get/216883328618" title="Lika Collection Get! on Facebook" class="facebook">Facebook</a>
+          </li>
+          <li>
+            <a href="https://soundcloud.com/grace-hrabi" title="Lika Collection Get! on Soundcloud" class="soundcloud">Soundcloud</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <div class="made_by">
+        <p>
+          <a href="http://gracehrabi.com" title="Grace Hrabi">Grace Hrabi</a> / <a href="http://ebritton.ca" title="Eliot Britton">Eliot Britton</a> / <a href="http://kevinmcphillips.ca" title="Kevin McPhillips">Kevin McPhillips</a>
+        </p>
+      </div>
+    </footer>
+    <%= erb :analytics %>
+  </body>
+</html>
