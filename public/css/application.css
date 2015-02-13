@@ -246,13 +246,13 @@ section#listen .buy a {
 }
 section#pictures {
   background-color: #56E5C4;
-  height: 100%;
+  min-height: 300px;
   position: relative;
 }
 section#pictures ul {
   display: block;
   margin: 0 auto;
-  padding: 0;
+  padding: 150px 0;
   position: relative;
   display: table !important;
   height: 100%;
