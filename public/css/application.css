@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #56E5C4;
   text-shadow: none;
 }
 ::selection {
-  background: #b3d4fc;
+  background: #56E5C4;
   text-shadow: none;
 }
 a {
@@ -40,7 +40,7 @@ nav {
   left: 0;
   height: 40px;
   line-height: 40px;
-  background-color: #141b49;
+  background-color: #1D1313;
   z-index: 60;
   font-size: 90%;
   -webkit-user-select: none;
@@ -67,7 +67,7 @@ nav ul li {
 }
 nav ul li a {
   letter-spacing: 1px;
-  color: #fff28c;
+  color: #B0A8AB;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 242, 140, 0.3);
   outline: none !important;
@@ -135,7 +135,7 @@ section#about article p {
   margin: 0 auto;
   font-size: 140%;
   text-align: left;
-  color: #141b49;
+  color: #1D1313;
 }
 section#about article p + p {
   margin-top: 0.5em;
@@ -146,7 +146,7 @@ section#about article h2 {
   min-width: 500px;
   margin: 0 auto;
   text-align: center;
-  color: #141b49;
+  color: #1D1313;
   margin-bottom: 50px;
 }
 section.in-between_pic {
@@ -192,7 +192,7 @@ section#listen article {
 }
 section#listen article h2 {
   margin: 40px 50px 0px;
-  color: #141b49;
+  color: #1D1313;
   line-height: 1;
 }
 section#listen article ul.cast {
@@ -266,21 +266,21 @@ section#contact ul.info li {
 }
 section#contact ul.info li small {
   display: block;
-  color: #007a8f;
+  color: #D22042;
   font-size: 100%;
 }
 section#contact ul.info li a {
-  color: #007a8f;
+  color: #D22042;
   border-bottom: 1px solid rgba(0, 122, 143, 0.3);
 }
 section#contact ul.info li a:hover {
-  color: #141b49;
+  color: #1D1313;
   border-bottom: 1px solid rgba(20, 27, 73, 0.5);
 }
 section#contact ul.info li.phone a {
   border: 0;
   font-size: 400%;
-  color: #007a8f !important;
+  color: #D22042 !important;
 }
 section#contact ul.info li.mail a {
   font-size: 400%;
@@ -354,7 +354,7 @@ section#contact ul.socials li a.youtube:hover {
   background-position: -427px -100px;
 }
 footer {
-  background-color: #007a8f;
+  background-color: #1D1313;
   margin: -40px 0 0;
   padding: 0;
   height: 40px;
@@ -369,7 +369,7 @@ footer div.made_by p {
   font-size: 90%;
 }
 footer div.made_by p a {
-  color: #fff28c;
+  color: #B0A8AB;
   margin: 0;
   padding: 0;
   border-bottom: 1px solid rgba(255, 242, 140, 0.3);
