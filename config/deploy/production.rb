@@ -8,7 +8,6 @@ role :db, "app1.kev.cool"
 server "app1.kev.cool", user: "deploy", roles: %w{app db web}
 
 after "deploy:publishing", "deploy:restart"
-after "deploy:publishing", "deploy:symlink_shared_files"
 
 namespace :deploy do
   task :restart do
