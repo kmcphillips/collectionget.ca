@@ -1,6 +1,10 @@
 class CollectionGetApp < Sinatra::Base
   set :haml, format: :html5
 
+  get "/ping" do
+    "OK"
+  end
+
   get '/' do
     @email = rot13email(["contact" "@" "collectionget.ca"].join(''))
     erb :index
@@ -8,10 +12,6 @@ class CollectionGetApp < Sinatra::Base
 
   get "/*" do
     redirect to("/")
-  end
-
-  get "/ping" do
-    "OK"
   end
 
   helpers do
