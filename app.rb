@@ -10,6 +10,10 @@ class CollectionGetApp < Sinatra::Base
     redirect to("/")
   end
 
+  get "/ping" do
+    "OK"
+  end
+
   helpers do
     def rot13email(email, name=nil)
       obfuscated = email.clone.insert((email.length / 3) * 2, "[REMOVETHIS]").insert(email.length / 3, "[REMOVETHIS]")
