@@ -4,7 +4,7 @@ set :application, 'collectionget.ca'
 set :repo_url, 'https://github.com/kmcphillips/collectionget.ca.git'
 
 set :user, "deploy"
-set :rbenv_ruby, "2.3.1"
+set :rbenv_ruby, "2.6.0"
 
 # Default value for :linked_files is []
 # append :linked_files, 'config/database.yml', 'config/secrets.yml'
@@ -18,10 +18,5 @@ append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets'
 # Default value for keep_releases is 5
 set :keep_releases, 2
 
-# Unicorn
-# set :unicorn_pid, -> { File.join(current_path, "tmp", "pids", "unicorn.pid") }
-set :unicorn_config_path, -> { File.join(current_path, "config", "unicorn.rb") }
-# set :unicorn_roles, -> { :app }
-# set :unicorn_options, -> { "" }
-# set :unicorn_rack_env, -> { fetch(:rails_env) == "development" ? "development" : "deployment" }
-# set :unicorn_restart_sleep_time, 3
+# puma
+set :puma_user, 'deploy'
