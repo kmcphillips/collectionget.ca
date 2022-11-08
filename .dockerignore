@@ -1,0 +1,11 @@
+# flyctl launch added from .gitignore
+**/.DS_Store
+**/.project
+**/.settings
+**/*.db
+**/tmp/*
+**/.sass-cache
+**/.rvmrc
+**/*.sublime-workspace
+**/.bundle/config
+**/log

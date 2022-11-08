@@ -7,6 +7,7 @@
     <meta name="author" content="Collection Get!">
     <meta name="description" content="">
     <meta name="viewport" content="width=1000">
+    <!-- gostatic -->
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/application.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -116,7 +117,7 @@
         <ul class="info">
           <li class="mail">
             <small>Contact us</small>
-            <%= @email %>
+            <script>document.write('<a href="mailto:' + 'pbagnpg@pbyyrpgvbatrg.pn'.rot13() + '">' + 'pbagnpg@pbyyrpgvbatrg.pn'.rot13() + '</a>');</script><noscript><a href="mailto:contact@[REMOVETHIS]collecti[REMOVETHIS]onget.ca">contact@[REMOVETHIS]collecti[REMOVETHIS]onget.ca</a></noscript>
           </li>
         </ul>
         <ul class="socials">
@@ -145,6 +146,13 @@
         </p>
       </div>
     </footer>
-    <%= erb :analytics %>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-18310332-7', 'auto');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>
