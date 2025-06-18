@@ -1,6 +1,7 @@
 # fly.toml file generated for kmcphillips-collectionget-ca on 2022-11-08T14:05:58-05:00
 
 app = "kmcphillips-collectionget-ca"
+primary_region = "yyz"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
